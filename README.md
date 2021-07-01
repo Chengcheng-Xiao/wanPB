@@ -1,4 +1,4 @@
-# W90_PB
+# wanPB
 
 Converting [Wannier90's](http://www.wannier.org) Hamiltonian to [pybinding](https://docs.pybinding.site/en/stable/) compatible format.
 
@@ -9,7 +9,7 @@ Converting [Wannier90's](http://www.wannier.org) Hamiltonian to [pybinding](http
 
 ## Usage
 
-Input files needed:
+Input files:
 
 - `seedname_centres.xyz`
 - `seedname_tb.dat`
