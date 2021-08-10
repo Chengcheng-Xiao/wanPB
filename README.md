@@ -21,4 +21,4 @@ w90_pb --seedname "wannier90"
 
 Output file:
 
-- `seedname.pbz` (check out [this](https://docs.pybinding.site/en/stable/api.html#results) page of how to read this file.)
+- `seedname.pbz` (check out [this](https://docs.pybinding.site/en/stable/api.html#results) page for how to use this file with pybinding.)
