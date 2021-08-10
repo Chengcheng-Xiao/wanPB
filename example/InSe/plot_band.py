@@ -16,9 +16,9 @@ solver = pb.solver.lapack(model)
 rvec = np.array(lat.reciprocal_vectors())
 
 # construct high symmetry points.
-Gamma   = np.sum([0,0,0]*rvec,axis=0)
-K1      = np.sum([0,0.5,0]*rvec,axis=0)
-M       = np.sum([1/3.,1/3.,0]*rvec,axis=0)
+Gamma   = np.array([0,0,0])@rvec
+K1      = np.array([0,0.5,0])@rvec
+M       = np.array([1/3.,1/3.,0])@rvec
 
 # calculate bands
 bands = solver.calc_bands(Gamma, K1, M, Gamma,  step=0.01)
